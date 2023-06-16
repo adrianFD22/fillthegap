@@ -1,19 +1,28 @@
 #
 # fillthegap: My personal GAP utilities
 #
-#! @Chapter Introduction
-#!
-#! fillthegap is a package which does some
-#! interesting and cool things
-#!
-#! @Chapter Functionality
-#!
-#!
-#! @Section Example Methods
-#!
-#! This section will describe the example
-#! methods of fillthegap
 
-#! @Description
-#!   Insert documentation for your function here
-DeclareGlobalFunction( "fillthegap_Example" );
+# Remaps
+DeclareSynonym( "CD", ChangeDirectoryCurrent);
+DeclareGlobalFunction( "PWD" );
+DeclareGlobalFunction( "LS" );
+
+# General
+DeclareGlobalFunction( "UnpackList" );
+DeclareGlobalFunction( "LessThanElements" );
+DeclareGlobalFunction( "GreaterThanElements" );
+DeclareGlobalFunction( "RecordToList" );
+DeclareGlobalFunction( "DBPrint" );
+DeclareGlobalFunction( "GetDirectoryString" );
+DeclareGlobalFunction( "GetExec" );
+DeclareGlobalFunction( "DeleteLinebreak" );
+DeclareGlobalFunction( "GetDate" );
+DeclareGlobalFunction( "IsLogFile" );
+DeclareGlobalFunction( "LogToDate" );
+DeclareGlobalFunction( "CleanLogs" );
+
+# Mathematics
+DeclareGlobalFunction( "InvBase" );
+DeclareGlobalFunction( "MinkowskiSum" );
+DeclareGlobalFunction( "GraphFromWeight" );
+DeclareGlobalFunction( "PrettyPrintOutputs" );

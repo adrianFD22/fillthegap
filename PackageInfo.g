@@ -13,6 +13,7 @@ Subtitle := "My personal GAP utilities",
 Version := "0.1",
 Date := "27/04/2023", # dd/mm/yyyy format
 License := "GPL-2.0-or-later",
+BannerString := "",
 
 Persons := [
   rec(
