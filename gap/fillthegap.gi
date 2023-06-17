@@ -1,8 +1,6 @@
 #
 # fillthegap: My personal GAP utilities
 #
-# Implementations
-#
 
 
 
@@ -296,6 +294,17 @@ InstallGlobalFunction( LogToDate, function(log_path)
     LogTo(file_today);
 end );
 
+
+# Return a function to cd to gap_dir
+InstallGlobalFunction( CreateCDGAP, function(gap_dir)
+    local CDGAP;
+
+    CDGAP := function()
+        ChangeDirectoryCurrent(gap_dir);
+    end;
+
+    return CDGAP;
+end);
 
 #-------------------------------------------------------------------------------
 #                                Mathematics
