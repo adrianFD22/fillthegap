@@ -296,14 +296,14 @@ end );
 
 
 # Return a function to cd to gap_dir
-InstallGlobalFunction( CreateCDGAP, function(gap_dir)
-    local CDGAP;
+InstallGlobalFunction( GetCDTo, function(dir)
+    local CDTo;
 
-    CDGAP := function()
-        ChangeDirectoryCurrent(gap_dir);
+    CDTo := function()
+        ChangeDirectoryCurrent(dir);
     end;
 
-    return CDGAP;
+    return CDTo;
 end);
 
 #-------------------------------------------------------------------------------

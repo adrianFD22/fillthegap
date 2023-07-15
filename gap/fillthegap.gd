@@ -20,7 +20,7 @@ DeclareGlobalFunction( "GetDate" );
 DeclareGlobalFunction( "IsLogFile" );
 DeclareGlobalFunction( "LogToDate" );
 DeclareGlobalFunction( "CleanLogs" );
-DeclareGlobalFunction( "CreateCDGAP" );
+DeclareGlobalFunction( "GetCDTo" );
 
 # Mathematics
 DeclareGlobalFunction( "InvBase" );
