@@ -4,6 +4,12 @@ These are just the functions I used to declare in my gaprc. As my gaprc grew, I 
 
 The only functions that I think can be useful for the person who is reading this (hi, btw) are the ones that offer the functionality of managing daily logs.
 
+## Installation
+
+Clone the repository in the ```pkg``` directory of your GAP installation.
+```
+git clone https://github.com/adrianFD22/fillthegap.git
+```
 
 ## Daily Logs
 
@@ -17,7 +23,3 @@ GAP offers the [`LogTo`](https://docs.gap-system.org/doc/ref/chap9_mj.html#X7981
 
 - Implement the `MinkowskiSum` function in a better way by using the Fast Fourier Transform (dont know about this is implemented in GAP).
 
-
-## Contact
-
-I'm Adrián Fidalgo-Díaz. If you have any suggestions or whatever, feel free to contact me at adrianfd22399@gmail.com.
