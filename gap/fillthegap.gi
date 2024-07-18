@@ -423,3 +423,20 @@ InstallGlobalFunction(PrettyPrintOutputs, function(list_functions, list_paramete
     od;
 
 end );
+
+#-------------------------------------------------------------------------------
+#                            Numerical semigroups
+#-------------------------------------------------------------------------------
+
+InstallGlobalFunction(DrawNS, function(S)
+    local x;
+
+    for x in [0..Conductor(S)] do
+        if x in S then
+            Print("O");
+        else
+            Print("_");
+        fi;
+    od;
+    Print("\n");
+end );

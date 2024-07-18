@@ -27,3 +27,6 @@ DeclareGlobalFunction( "InvBase" );
 DeclareGlobalFunction( "MinkowskiSum" );
 DeclareGlobalFunction( "GraphFromWeight" );
 DeclareGlobalFunction( "PrettyPrintOutputs" );
+
+# Numerical semigroups
+DeclareGlobalFunction( "DrawNS" );
